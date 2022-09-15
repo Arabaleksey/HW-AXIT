@@ -7,9 +7,18 @@ hamb.addEventListener("click", mobileMenu);
 function mobileMenu() {
     hamb.classList.toggle("active");
     navMenu.classList.toggle("active");
-    main.classList.toggle("active")
+    main.classList.toggle("active");
+    document.body.style.overflow = 'hidden'; 
 }
 
+
+
+
+
+// hamb.addEventListener("click", mobileMenu);
+// function mobileMenu(){
+//     document.body.style.overflow = 'auto'
+// }
 
 
 

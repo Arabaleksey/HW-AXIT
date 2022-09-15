@@ -304,8 +304,14 @@
 
 
 
-/* 576-768 */
+/* 1024-320 */
 @media screen and (max-width: 320px){
+    .main{
+        z-index: 10;
+        position: relative;
+        
+    }
+
     .bar__list{
         position: fixed;
         flex-direction: column;
@@ -314,7 +320,8 @@
         text-align: center;
         transition: 0.3s;
         left:-100%;
-        top:77px;
+        top:60px;  
+        z-index: 20;
     }
     .bar__list.active{
         left:0;
@@ -341,6 +348,8 @@
         margin-top: 475px;
         transition: 0.3s, 0.3s;
     }
+
+
     .container{
         max-width:288px;
         }
@@ -360,8 +369,8 @@
             margin: 0 auto;
         }
         .bar__img{
-            padding-top: 25px;
-            padding-bottom: 25px;
+            padding-top: 18px;
+            padding-bottom: 15px;
             padding-left: 0;
             margin-right: 0px;
             margin-left: 0px;
@@ -403,7 +412,7 @@
         }
 
         .main__title{
-            padding-top: 85px;
+            padding-top: 160px;
             margin: 0 auto;
             text-align: center;
         }

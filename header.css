@@ -1,6 +1,5 @@
 .header{
     background-color: #000000;
-    margin: 0 auto;
 }
 .bar{
     display: flex;
@@ -40,8 +39,8 @@
 }
 .hamb{
     display: none;
-    padding-top: 30px;
-    padding-right: 35px;
+    padding-top: 16px;
+    padding-right: 20px;
 }
 .hamb__bar{
     display: block; 
