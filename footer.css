@@ -1,0 +1,50 @@
+.footer__links{
+    background-color: #000;
+}
+.footer__container{
+    display: block;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 35px;
+}
+
+.footer__subtitle{
+    text-align: center;
+    color:#fff;
+    opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+.footer__img-facebook{
+    width: 23px;
+    height: 42px;
+}
+.footer__img-twitter{
+    width: 44px;
+    height: 35px;
+}
+.footer__img-linkedin{
+    width: 40px;
+    height: 40px;
+}
+.footer__img-pinterest{
+    width: 44px;
+    height: 44px;
+}
+.footer__img-instagram{
+    width: 40px;
+    height: 40px;
+}
+.footer__img-github{
+    width: 44px;
+    height: 43px;
+}
+.footer__img-wifi{
+    width: 38px;
+    height: 38px;
+}
+.footer__pictures_last{
+    margin-right: 0;
+}

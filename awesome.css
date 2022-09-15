@@ -1,0 +1,28 @@
+.awesome__container{
+    padding-bottom: 58px;
+    padding-top: 25px;
+}
+.awesome__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.awesome__row-title{
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.awesome__row-subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000;
+    text-align: center;
+}
+.awesome__img{
+   text-align: center; 
+}

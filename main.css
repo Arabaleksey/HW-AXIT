@@ -1,0 +1,137 @@
+
+.main{
+    position: relative;
+    background-image:url(../HOME/img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.main::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.main__container{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    padding-bottom: 185px;
+}
+.main__img{
+    padding-top: 237px;
+    padding-bottom: 73px;
+}
+.main__title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color:#FFFFFF;
+    font-size: 48px;
+    margin-bottom: 55px;
+}
+.main__hr{
+    border:none;
+    border-top: 1px solid #FFFFFF;
+    width: 170px;
+    left:0;
+    margin-bottom: 42px;
+}
+.main__subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color:#FFFFFF;
+    margin-bottom: 42px;
+    font-size: 18px;
+}
+.main__btn{
+    display: block;
+    border: 2px solid #FFFFFF;
+    width: 270px;
+    height: 58px;
+    text-align: center;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.main__btn:hover{
+    border: 2px solid #EC7979;
+    color:#EC7979;
+}
+.main__log-form{
+    padding-top: 208px;
+}
+.main__log-background{
+    width: 470px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    display:block;
+}
+
+.main__input{
+    display:block;
+}
+.main__form-title{
+    text-align: center;
+    color:#333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 35px;
+    padding-bottom: 85px;
+}
+.main__span{
+    color:#EC7979;
+}
+.main__input{
+    margin: 0 auto; 
+    background-color: transparent;
+    border:none;
+    display: block;
+    border-bottom: 1px solid #BDBDBD;
+    margin-bottom: 25px;
+    width: 370px;
+    padding: 10px 0px;
+    margin-bottom: 35px;
+    color:#BDBDBD;
+
+}
+.main__input:focus {
+    outline:1px solid #BDBDBD;
+    border-radius: 5px;
+    outline: none;
+}
+.main__input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;    
+    color:#BDBDBD;
+}
+.main__form-btn{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    border:none;
+    background-color: #EC7979;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    bottom: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+.main__form-btn:hover {
+    background: #C57575;
+    cursor: pointer;
+}

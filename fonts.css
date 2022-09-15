@@ -1,0 +1,54 @@
+@font-face{
+    font-family: 'Open Sans';
+    src:url('./fonts/forme/OpenSans-Bold.eot') format('eot'),
+    url('./fonts/forme/OpenSans-Bold.ttf') format("truetype"),
+    url('./fonts/forme/OpenSans-Bold.woff') format('woff'),
+    url('./fonts/forme/OpenSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url('./fonts/forme/OpenSans-Regular.eot') format('eot'),
+    url('./fonts/forme/OpenSans-Regular.ttf') format('truetype'),
+    url('./fonts/forme/OpenSans-Regular.woff') format('woff'),
+    url('./fonts/forme/OpenSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url('./fonts/forme/OpenSans-SemiBold.eot') format('eot'),
+    url('./fonts/forme/OpenSans-SemiBold.ttf') format('truetype'),
+    url('./fonts/forme/OpenSans-SemiBold.woff') format('woff'),
+    url('./fonts/forme/OpenSans-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Raleway';
+    src: url('./fonts/forme/Raleway-Bold.eot') format('eot'),
+    url('./fonts/forme/Raleway-Bold.ttf') format("truetype"),
+    url('./fonts/forme/Raleway-Bold.woff') format("woff"),
+    url('./fonts/forme/Raleway-Bold.woff2') format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Raleway';
+    src: url("./fonts/forme/Raleway-Medium.eot") format('eot'),
+    url('./fonts/forme/Raleway-Medium.ttf') format('truetype'),
+    url('./fonts/forme/Raleway-Medium.woff') format('woff'),
+    url('./fonts/forme/Raleway-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Raleway';
+    src:url('./fonts/forme/Raleway-Regular.eot') format('eot'),
+    url('./fonts/forme/Raleway-Regular.ttf') format('truetype'),
+    url('./fonts/forme/Raleway-Regular.woff') format('woff'),
+    url('./fonts/forme/Raleway-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}

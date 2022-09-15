@@ -1,0 +1,42 @@
+.review__background{
+    background-image:url(./img/feedback.png) ;
+    width: 370px;
+    height: 200px;
+    margin-bottom: 66px;
+}
+.review__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#86878B;
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 37px;
+}
+.review__all{
+    display: flex;
+    justify-content: space-between;
+}
+.review__main{
+    display: flex;
+}
+.review__name{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.review__job{
+    padding-left: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.review__container{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.review__dots{
+    display: none;
+}
