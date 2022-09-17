@@ -1,7 +1,7 @@
-.header{
+.bar{
     background-color: #000000;
 }
-.bar{
+.bar__wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,12 +37,12 @@
     background-color: #EC7979;
     text-transform: uppercase;
 }
-.hamb{
+.bar__hamb{
     display: none;
     padding-top: 16px;
     padding-right: 20px;
 }
-.hamb__bar{
+.bar__hamb-line{
     display: block; 
     width: 24px;
     height: 3px;

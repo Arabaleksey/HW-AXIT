@@ -1,11 +1,11 @@
-let hamb = document.querySelector(".hamb")
+let bar__hamb = document.querySelector(".bar__hamb")
 let navMenu = document.querySelector(".bar__list")
 let main = document.querySelector(".main")
 
-hamb.addEventListener("click", mobileMenu);
+bar__hamb.addEventListener("click", mobileMenu);
 
 function mobileMenu() {
-    hamb.classList.toggle("active");
+    bar__hamb.classList.toggle("active");
     navMenu.classList.toggle("active");
     main.classList.toggle("active")
 }

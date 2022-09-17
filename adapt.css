@@ -1,4 +1,4 @@
-/* 768-1024 */
+/* 1024 -----------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:1024px){
     .container{
     max-width: 992px;
@@ -213,13 +213,24 @@
     .price__subtitle{
         margin-bottom: 50px;
     }
+    .price__name{
+        font-size: 18px;
+    }
+    .price__value{
+        font-size: 24px;
+    }
+    .price__free{
+        font-size: 14px;
+    }
+    .price__space{
+        font-size:14px;
+    }
 
 
     .review__subtitle{
         margin-bottom: 50px;
     }
     .review__background{
-        /* background-image:url(./img/feedback_adapt1.png) ; */
         width: 317px;
         margin-bottom: 50px;
         height: 180px;
@@ -229,7 +240,6 @@
     }
     .review__text{
         font-size: 14px;
-        /* padding-top: 50px; */
     }
     .review__portrait{
         width: 63px;
@@ -250,7 +260,6 @@
 
 
 
-
     .contact__title{
         font-weight: 700;
     }
@@ -268,7 +277,6 @@
     .contact__btn{
         width: 318px;
     }
-
 
 
 
@@ -313,27 +321,18 @@
 
 
 
-
-
-
-/* 1024-320 */
+/* 320------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 320px){
     .title{
         padding-top: 10px;
     }
-    .header{
+    .bar{
         position: fixed;
         top:0;
         left:0;
         width: 100%;
         z-index: 9999;
     }
-    .main{
-        z-index: 10;
-        position: relative;
-        
-    }
-
     .bar__list{
         position: absolute;
         flex-direction: column;
@@ -353,17 +352,17 @@
         margin:5px;
         margin: 0 auto;
     }
-    .hamb{
+    .bar__hamb{
         display: block;
         cursor: pointer;
     }
-    .hamb.active .hamb__bar:nth-child(2) {
+    .bar__hamb.active .bar__hamb-line:nth-child(2) {
         opacity: 0;
     }
-    .hamb.active .hamb__bar:nth-child(1) {
+    .bar__hamb.active .bar__hamb-line:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    .hamb.active .hamb__bar:nth-child(3) {
+    .bar__hamb.active .bar__hamb-line:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
     .main.active{
@@ -386,7 +385,7 @@
             margin-top: 52px;
         }
     
-        .bar{
+        .bar__wrapper{
             width: 288px;
             margin: 0 auto;
         }
@@ -423,11 +422,16 @@
             height: 23px;
         }
 
+
         .main__container{
             margin-left: 0;
             display: block;
             margin: 0 auto;
             padding-bottom: 50px;
+        }
+        .main{
+            z-index: 10;
+            position: relative;  
         }
         .main__img{
             display: none;
@@ -538,7 +542,6 @@
             width:32.4%;
             display: inline-block;
         }
-
         .tab__title{
             font-size: 24px;
             padding-left: 0;
@@ -612,17 +615,21 @@
             margin-bottom: 0;
         }
         
+
         .review__container{
             padding-bottom: 20px;
+            overflow:hidden;
         }
         .review__all{
             justify-content: flex-start;
+            width: 300%;
+            height: 100%;
+            display: flex;
         }
         .review__subtitle{
             margin-bottom: 20px;
         }
         .review__background{
-            /* background-image:url(./img/feedback_adapt2.png) ; */
             width: 288px;
             overflow:hidden;
             margin-bottom:15px;
@@ -639,12 +646,6 @@
             padding-left: 88px;
             font-size: 13px;
             padding-bottom: 20px;
-        }
-       
-
-
-        .review__container{
-            overflow:hidden;
         }
         .review__title-hidden{
             display: none;
@@ -664,7 +665,6 @@
         .review__subtitle-slide{
             display: block;
         }
-    
         .review__nav-block{
             display: flex;
             margin: 0 auto;
@@ -675,16 +675,9 @@
             margin-top: 25px;
             margin-bottom: 20px;
         }
-        .review__all{
-            width: 300%;
-            height: 100%;
-            display: flex;
-        }
-
         .review__back-img{
             width: 288px;
         }
-
         .review__block{
             width: calc(100%/3);
             transition:all .6s ease;
@@ -702,13 +695,7 @@
         #review__r3:checked ~ .review__block_one{
             margin-left: calc(-100%/3*2);
         }
-        
-
-
-
-
-
-        
+             
         .prototype__title{
             padding-top: 20px;
             font-weight: 400;
@@ -721,7 +708,6 @@
         }
 
 
-    
         .contact__box-form{
             display: block;
         }
@@ -784,8 +770,4 @@
             margin-right: 0;
         }
         
-
-
-
-
 }

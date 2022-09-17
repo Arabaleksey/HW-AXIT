@@ -57,9 +57,9 @@
     border: 1px solid #C6CBCD;
 }
 
-#tab__btn-1:checked~#content-1,
-#tab__btn-2:checked~#content-2,
-#tab__btn-3:checked~#content-3 {
+#tab__btn-1:checked~#tab__content-1,
+#tab__btn-2:checked~#tab__content-2,
+#tab__btn-3:checked~#tab__content-3 {
     display: flex;
 }
 
