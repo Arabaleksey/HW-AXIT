@@ -1,38 +1,12 @@
 .tab__container{
     padding-top: 80px;
 }
-.tab__head{
-    display: flex;
-}
-.tab__btn{
-    display: block;
-    border-radius: 5px 5px 0px 0px;
-    width: 201px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    color:#333333;    ;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    border:none;
-    border-bottom:1px solid #C6CBCD;
-    padding-top: 10px;
-}
-.tab__btn:hover{
-    border:1px solid #C6CBCD;
-    border-bottom: none;
-}
-.tab__box-nothing{
-    width: 600px;
-    height: 40px;
-    border-bottom:1px solid #C6CBCD;
-}
 .tab__wrapper{
     display: flex;
     justify-content: space-between;
     border:1px solid#C6CBCD;
     border-top: none;
+    
 }
 .tab__title{
     font-family: 'Open Sans', sans-serif;
@@ -49,15 +23,13 @@
     padding-left: 100px;
     padding-bottom: 27px;
 }
-
-.tab__picture{
-    padding-left: 30px;
-}
 .tab__img{
+    width: 473px;
     height: 100%;
 }
 .tab__download{
-    padding-left: 100px;
+    padding-left:100px;
+    margin-bottom: 54px;
 }
 .tab__link{
     display: block;
@@ -74,4 +46,51 @@
 }
 .tab__link:hover{
     background-color: #AB4949;
+}
+
+.tab__head>input[type="radio"] {
+    display: none;
+}
+
+.tab__head>div {
+    display: none;
+    border: 1px solid #C6CBCD;
+}
+
+#tab__btn-1:checked~#content-1,
+#tab__btn-2:checked~#content-2,
+#tab__btn-3:checked~#content-3 {
+    display: flex;
+}
+
+.tab__head>label{
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+    border-radius: 5px 5px 0px 0px;
+    padding: 2px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    width: 201px;
+    height: 40px;
+    padding-top: 10px;
+    color:#333333; 
+    margin-top: 50px;
+}
+
+.tab__head>label:not(:first-of-type) {
+    border-left: none;
+}
+
+.tab__head>input[type="radio"]:checked+label {
+    background-color: #fff;
+    border-top: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    
+    
 }

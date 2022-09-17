@@ -75,21 +75,22 @@
             </div>
         </div>
     </section>
-    <section class="tab">
+      <section class="tab">
         <div class="tab__container container">
             <div class="tab__head">
-                    <a href="#" class="tab__btn">TAB 1</a>
-                    <a href="#" class="tab__btn">TAB 2</a>
-                    <a href="#" class="tab__btn">TAB 3</a>
-                    <div class="tab__box-nothing"></div> 
-            </div>        
-                <div class="tab__wrapper">
+                <input type="radio" name="tab__btn" id="tab__btn-1" value="" checked>
+                <label for="tab__btn-1">TAB 1</label>
+                <input type="radio" name="tab__btn" id="tab__btn-2" value="">
+                <label for="tab__btn-2">TAB 2</label>
+                <input type="radio" name="tab__btn" id="tab__btn-3" value="">
+                <label for="tab__btn-3">TAB 3</label>
+                <div class="tab__wrapper" id="content-1">
                     <div class="tab__text">
                         <h3 
                         class="tab__title">Tabs with soft transitioning effect.
                         </h3>
                         <p class="tab__subtitle">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br class="tab__br"> euismod <br class="tab__br"> bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br class="tab__br"> viverra <br class="tab__br"> justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br class="tab__br"> penatibus et magnis dis parturient montes.<br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br class="tab__br"> euismod<br class="tab__br"> bibendum laoreet.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br class="tab__br"> euismod <br class="tab__br"> bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br class="tab__br"> viverra <br class="tab__br_viverra"> justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br class="tab__br tab__br_natoque"> penatibus et magnis dis parturient montes.<br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br class="tab__br"> euismod<br class="tab__br"> bibendum laoreet.
                         </p>
                         <div class="tab__download">
                             <a class="tab__link" href="#">Download</a>
@@ -98,7 +99,40 @@
                     <div class="tab__picture">
                         <img src="./img/tab_img.png" alt="" class="tab__img">
                     </div>
+                </div>
+                <div class="tab__wrapper" id="content-2">
+                    <div class="tab__text">
+                        <h3 
+                        class="tab__title">Tabs with soft transitioning effect.
+                        </h3>
+                        <p class="tab__subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br class="tab__br"> euismod <br class="tab__br"> bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br class="tab__br"> viverra <br class="tab__br_viverra"> justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br class="tab__br tab__br_natoque"> penatibus et magnis dis parturient montes.<br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br class="tab__br"> euismod<br class="tab__br"> bibendum laoreet.
+                        </p>
+                        <div class="tab__download">
+                            <a class="tab__link" href="#">Download</a>
+                        </div>
+                    </div>
+                    <div class="tab__picture">
+                        <img src="./img/tab_img.png" alt="" class="tab__img">
+                    </div>
+                </div>
+            <div class="tab__wrapper" id="content-3">
+                <div class="tab__text">
+                    <h3 
+                    class="tab__title">Tabs with soft transitioning effect.
+                    </h3>
+                    <p class="tab__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br class="tab__br"> euismod <br class="tab__br"> bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <br class="tab__br"> viverra <br class="tab__br_viverra"> justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br class="tab__br tab__br_natoque"> penatibus et magnis dis parturient montes.<br> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br class="tab__br"> euismod<br class="tab__br"> bibendum laoreet.
+                    </p>
+                    <div class="tab__download">
+                        <a class="tab__link" href="#">Download</a>
+                    </div>
+                </div>
+                <div class="tab__picture">
+                    <img src="./img/tab_img.png" alt="" class="tab__img">
+                </div>
             </div>
+        </div>
         </div>
     </section>
         <section class="awesome">
@@ -207,16 +241,32 @@
     </section>
     <section class="review">
         <div class="review__container container">
-            <h2 class="review__title title">
+            <h2 class="review__title review__title-hidden title">
                 WHAT OUR CUSTOMERS ARE SAYING
             </h2>
-            <hr class="review__hr hr">
-            <p class="review__subtitle subtitle">             
+            <hr class="review__hr review__hr-hidden hr">
+            <p class="review__subtitle review__subtitle-hidden subtitle">             
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+
             <div class="review__all">
+
+                <input type="radio" name="review__r" id="review__r1">
+                <input type="radio" name="review__r" id="review__r2">
+                <input type="radio" name="review__r" id="review__r3">
+
                 <div class="review__block review__block_one">
+
+                    <h2 class="review__title review__title-slide title">
+                        WHAT OUR CUSTOMERS ARE SAYING
+                    </h2>
+                    <hr class="review__hr review__hr-slide hr">
+                    <p class="review__subtitle review__subtitle-slide subtitle">             
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+
                     <div class="review__background">
+                        <img class="review__back-img" src="./img/feedback.png" alt="">                   
                         <p class="review__text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus<br> accusamus expedita repellat similique<br> odio aspernatur ex, architecto eaque<br> quo suscipit.</p>
                     </div>
                     <div class="review__person">
@@ -233,7 +283,19 @@
                     
                 </div>
                 <div class="review__block review__block_two">
+
+                    <h2 class="review__title review__title-slide title">
+                        WHAT OUR CUSTOMERS ARE SAYING
+                    </h2>
+                    <hr class="review__hr review__hr-slide hr">
+                    <p class="review__subtitle review__subtitle-slide subtitle">             
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+
                     <div class="review__background">
+
+                            <img class="review__back-img" src="./img/feedback.png" alt="">
+                         
                         <p class="review__text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus<br> accusamus expedita repellat similique<br> odio aspernatur ex, architecto eaque<br> quo suscipit.</p>
                     </div>
                     <div class="review__person">
@@ -249,7 +311,19 @@
                     </div>
                 </div>
                 <div class="review__block review__block_three">
+
+                    <h2 class="review__title review__title-slide title">
+                        WHAT OUR CUSTOMERS ARE SAYING
+                    </h2>
+                    <hr class="review__hr review__hr-slide hr">
+                    <p class="review__subtitle review__subtitle-slide subtitle">             
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+
                     <div class="review__background">
+
+                            <img class="review__back-img" src="./img/feedback.png" alt="">
+
                         <p class="review__text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Doloribus<br> accusamus expedita repellat similique<br> odio aspernatur ex, architecto eaque<br> quo suscipit.</p>
                     </div>
                     <div class="review__person">
@@ -265,12 +339,13 @@
                     </div>
                 </div>
          </div>
-         <div class="review__dots">
-            <div class="review__points">
-                <a href="" class="review__point review__point_one"></a>
-                <a href="" class="review__point review__point_two"></a>
-                <a href="" class="review__point review__point_three"></a>
+         <div class="review__navigation">
+            <div class="review__nav-block">
+                <label for="review__r1" class="review__nav-point"></label>
+                <label for="review__r2" class="review__nav-point"></label>
+                <label for="review__r3" class="review__nav-point"></label>
             </div>
+        </div>
          </div>
         </div>
     </section>

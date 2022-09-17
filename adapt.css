@@ -150,9 +150,8 @@
         width: 398px;
         height:100%;
     }
-    .tab__btn{
-        width: 170px;
-        padding-top: 10px;
+    .tab__head>label{
+        width: 156px;
     }
     .tab__box-nothing{
         width: 509px;
@@ -170,6 +169,15 @@
     }
     .tab__br{
         display: none;
+    }
+    .tab__br_viverra{
+        display: block;
+    }
+    .tab__br_natoque{
+        display: block;
+    }
+    .tab__link{
+        width: 232px;
     }
     .tab__download{
         padding-left: 85px;
@@ -211,13 +219,17 @@
         margin-bottom: 50px;
     }
     .review__background{
-        background-image:url(./img/feedback_adapt1.png) ;
+        /* background-image:url(./img/feedback_adapt1.png) ; */
         width: 317px;
         margin-bottom: 50px;
+        height: 180px;
+    }
+    .review__back-img{
+        width: 317px;
     }
     .review__text{
         font-size: 14px;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
     .review__portrait{
         width: 63px;
@@ -306,6 +318,16 @@
 
 /* 1024-320 */
 @media screen and (max-width: 320px){
+    .title{
+        padding-top: 10px;
+    }
+    .header{
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100%;
+        z-index: 9999;
+    }
     .main{
         z-index: 10;
         position: relative;
@@ -313,7 +335,7 @@
     }
 
     .bar__list{
-        position: fixed;
+        position: absolute;
         flex-direction: column;
         background-color: #000;
         width: 100%;
@@ -329,7 +351,7 @@
     }
     .bar__point{
         margin:5px;
-        padding-left: 100px;
+        margin: 0 auto;
     }
     .hamb{
         display: block;
@@ -346,7 +368,7 @@
     }
     .main.active{
         margin-top: 475px;
-        transition: 0.3s, 0.3s;
+        transition: 0.3s;
     }
 
 
@@ -385,7 +407,7 @@
         }
         .bar__point-link{
             display: block;
-            width: 113px;
+            width: 320px;
             height: 85px;
             text-align: center;
             text-decoration: none;
@@ -509,16 +531,14 @@
         .tab__wrapper{
             display: block;
         }
-        .tab__box-nothing{
-            display: none;
-        }
        .tab__picture{
         display: none;
        }
-        .tab__btn{
-            width: 170px;
-            padding-top: 10px;
+       .tab__head>label{
+            width:32.4%;
+            display: inline-block;
         }
+
         .tab__title{
             font-size: 24px;
             padding-left: 0;
@@ -592,17 +612,20 @@
             margin-bottom: 0;
         }
         
-        
+        .review__container{
+            padding-bottom: 20px;
+        }
         .review__all{
-            display: block;
+            justify-content: flex-start;
         }
         .review__subtitle{
             margin-bottom: 20px;
         }
         .review__background{
-            background-image:url(./img/feedback_adapt2.png) ;
+            /* background-image:url(./img/feedback_adapt2.png) ; */
             width: 288px;
-            margin-bottom: 50px;
+            overflow:hidden;
+            margin-bottom:15px;
         }
         .review__portrait{
             width: 57px;
@@ -617,29 +640,70 @@
             font-size: 13px;
             padding-bottom: 20px;
         }
-        /* .review__dots{
-            display: flex;
+       
+
+
+        .review__container{
+            overflow:hidden;
         }
-        .review__points{
+        .review__title-hidden{
+            display: none;
+        }
+        .review__hr-hidden{
+            display: none;
+        }
+        .review__subtitle-hidden{
+            display: none;
+        }
+        .review__title-slide{
+            display: block;
+        }
+        .review__hr-slide{
+            display: block;
+        }
+        .review__subtitle-slide{
+            display: block;
+        }
+    
+        .review__nav-block{
             display: flex;
             margin: 0 auto;
+
         }
-        .review__point{
-            display: block;
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            border:1px solid #86878B    ;
-            margin-right: 50px;
+        .review__navigation{
+            display: flex;
+            margin-top: 25px;
+            margin-bottom: 20px;
         }
-        .review__point_three{
+        .review__all{
+            width: 300%;
+            height: 100%;
+            display: flex;
+        }
+
+        .review__back-img{
+            width: 288px;
+        }
+
+        .review__block{
+            width: calc(100%/3);
+            transition:all .6s ease;
+            position: relative;
+        }
+        .review__block_three{
             margin-right: 0;
         }
+        #review__r1:checked ~ .review__block_one{
+            margin-left: 0;
+        }
+        #review__r2:checked ~ .review__block_one{
+            margin-left: calc(-100%/3);
+        }
+        #review__r3:checked ~ .review__block_one{
+            margin-left: calc(-100%/3*2);
+        }
         
-        .review__point:hover{
-            background-color: #86878B;
-        } */
-    
+
 
 
 
