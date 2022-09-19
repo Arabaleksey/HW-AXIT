@@ -66,6 +66,11 @@
     border: 2px solid #EC7979;
     color:#EC7979;
 }
+.main__btn:active{
+    background-color:#AB4949;
+    color:#fff;
+    border:none;
+}
 .main__log-form{
     padding-top: 208px;
 }
@@ -131,6 +136,10 @@
     border-radius: 0px 0px 10px 10px;
 }
 .main__form-btn:hover {
-    background: #C57575;
+    background: #AB4949;
     cursor: pointer;
+}
+.main__form-btn:active{
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
 }

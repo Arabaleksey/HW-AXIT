@@ -72,3 +72,7 @@
 .contact__btn:hover{
     background-color: #AB4949;
 }
+.contact__btn:active{
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}

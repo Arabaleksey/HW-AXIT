@@ -37,6 +37,9 @@
     background-color: #EC7979;
     text-transform: uppercase;
 }
+.bar__point-link:active{
+    background-color: #AB4949;
+}
 .bar__hamb{
     display: none;
     padding-top: 16px;

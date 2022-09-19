@@ -51,3 +51,8 @@
     border: 2px solid #EC7979;
     color:#EC7979;
 }
+.prototype__btn:active{
+    background-color:#AB4949;
+    color:#fff;
+    border:none;
+}
